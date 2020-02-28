@@ -232,8 +232,9 @@ ul.footer-links li a:hover{
 }
 
 .enroll-container{
-    padding: 20px;
-    width: 100%;
+    text-align: center;
+    margin: 0;
+    width: 99%;
 }
 
 .enroll-container ul li{
@@ -296,6 +297,10 @@ ul.footer-links li a:hover{
 }
 
 @media only screen and (max-width: 650px){
+    header h1{
+        font-size: 30px;
+        padding: 2%;
+    }
     .footer-container h2{
         padding-top: 20px;
         font-size: 20px;
@@ -341,6 +346,9 @@ ul.footer-links li a:hover{
     }
     .news-container{
         position: fixed;
+    }
+    .organizational{
+        width: 100%;
     }
 }
 
